@@ -1,89 +1,79 @@
 # 📒 Contact Library — My First Python OOP Project
 
-## 📌 About the Project
+## About
 
-**Contact Library** is my first project built using Object-Oriented Programming (OOP) in Python. I created this project to apply my understanding of Python classes, objects, methods, and basic data validation in a practical application.
+This is my **first project using Object-Oriented Programming (OOP) in Python**. I built this simple Contact Library to practise organizing data and related functionality using a class, objects, and methods.
 
-The project allows users to add contact details, display all stored contacts, search for a contact by name, and validate phone numbers. It uses a Python class to organize contact data and related functionality in a structured way.
+The program lets users enter contact names and phone numbers, display contacts stored during the current run, and search for a contact by name.
 
-As a beginner learning Python and software development, this project is an important step in strengthening my programming fundamentals and understanding how OOP is used to organize code.
+## Features
 
-## ✨ Features
+- **Add contacts:** Enter a contact name and phone number.
+- **Display contacts:** Show all contacts stored while the program is running.
+- **Search contacts:** Find a contact by name using case-insensitive matching.
+- **Phone number validation:** Check that a phone number contains digits only and has at least 10 digits.
+- **Input cleaning:** Remove leading and trailing whitespace from names and phone numbers.
 
-- **Add Contacts:** Store contact names and phone numbers.
-- **Display Contacts:** Display all contacts stored during program execution.
-- **Search Contacts:** Find a contact by name using case-insensitive matching.
-- **Phone Number Validation:** Check that phone numbers contain digits only and have at least 10 digits.
-- **Input Cleaning:** Remove unnecessary leading and trailing whitespace using Python's `strip()` method.
-- **Organized Code:** Use a class to group contact data and related methods.
-
-## 🛠️ Technologies Used
+## Technologies
 
 - Python 3
 - Object-Oriented Programming (OOP)
 
-## 📚 Concepts I Practiced
-
-Through this project, I practised:
+## Concepts Practised
 
 - Classes and objects
-- Constructors (`__init__`)
-- Instance attributes and class attributes
+- Constructor (`__init__`)
+- Class attributes and instance attributes
 - Class methods (`@classmethod`)
 - Static methods (`@staticmethod`)
-- Lists and loops
-- Conditional statements
+- Lists, loops, and conditional statements
 - String methods such as `strip()` and `lower()`
 - Basic input validation
 
-## 🚀 How to Run
+## How to Run
 
-1. Make sure Python 3 is installed on your system.
-2. Clone this repository:
+**Requirement:** Python 3 installed on your computer.
 
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-3. Navigate to the project directory:
+1. Clone the repository:
 
    ```bash
-   cd <repository-folder>
+   git clone https://github.com/ANMOL-CREATIONS/Contact-library-using-OOPs.git
    ```
 
-4. Run the Python file:
+2. Open the project folder:
+
+   ```bash
+   cd Contact-library-using-OOPs
+   ```
+
+3. Run the program:
 
    ```bash
    python ContactLibrary.py
    ```
 
-5. Enter the number of contacts, followed by each contact's name and phone number.
+4. Enter how many contacts you want to add, then provide each contact's name and phone number when prompted.
 
-## 🔮 Future Improvements
+## Limitations
 
-I plan to improve this project by adding:
+- Contacts are stored in memory and are not saved after the program closes.
+- Phone number validation checks digits and minimum length only; it does not verify country codes or national numbering rules.
+- The current script displays contacts at the end of the run; searching is available as a class method but is not yet exposed through an interactive menu.
 
-- Update and delete contact functionality
-- Duplicate contact prevention
-- Permanent storage using JSON or SQLite
-- Improved phone number validation
-- Better exception handling
-- A menu-driven interface
+## Future Improvements
 
-## 💬 Feedback and Suggestions
+- Add options to update and delete contacts.
+- Prevent duplicate contacts.
+- Save contacts permanently using JSON or SQLite.
+- Improve input validation and exception handling.
+- Add a menu-driven interface.
 
-This is my **first OOP project**, and I know there is still a lot for me to learn.
+## Feedback Welcome 💬
 
-I would appreciate feedback from fellow developers and experienced Python programmers.
+Since this is my **first OOP project**, I’m still learning and improving. I’d appreciate feedback from fellow developers and experienced Python programmers.
 
-- What improvements would you suggest for my code?
+- What would you improve in my code?
 - What coding practices should I follow to make it more professional?
-- Which features should I implement next?
+- Which feature should I build next?
 
-Your suggestions and code reviews will help me learn, improve, and become a better developer.
-
-**Thank you for checking out my project!** ⭐
-
----
-
-*Built with Python as part of my journey into Object-Oriented Programming and software development.*
+Thanks for reviewing my project and sharing suggestions!
